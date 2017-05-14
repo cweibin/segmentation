@@ -1,0 +1,8 @@
+#PBS -N image_segment
+
+cd ~
+echo Starting segmentation
+source activate test_env
+./segment_train.py
+echo End of segmentation
+
